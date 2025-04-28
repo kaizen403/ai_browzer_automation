@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // modern JS features
+    "module": "commonjs", // Node.js
+    "lib": ["ES2020", "DOM"], // for Puppeteer & any browser APIs
+    "rootDir": "src", // source files
+    "outDir": "dist", // compiled output
+    "strict": true, // all strict checks
+    "esModuleInterop": true, // allow default imports from commonjs
+    "forceConsistentCasingInFileNames": true, // catch casing mismatches
+    "skipLibCheck": true, // speed up compilation
+    "resolveJsonModule": true, // allow import of .json files
+    "sourceMap": true // generate sourcemaps for debugging
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
